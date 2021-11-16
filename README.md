@@ -17,10 +17,12 @@ https://duin.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina Duin
+ 
 <img src="images/duin-home.png" width="375px" alt="Homepage van duin.nl">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Over de wijk Duin
+ 
 <img src="images/duin-het-gebied.png" width="375px" alt="Over de wijk Duin">
  
 </details>
