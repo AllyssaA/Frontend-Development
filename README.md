@@ -24,6 +24,10 @@ Homepagina Duin
 Over de wijk Duin
  
 <img src="images/duin-het-gebied.png" width="375px" alt="Over de wijk Duin">
+
+
+#### Breakdownschets mobile versie
+<img src="images/breakdownschets.png" width="375px" alt="Breadownschets">
  
 </details>
 
