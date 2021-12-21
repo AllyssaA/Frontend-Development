@@ -12,82 +12,105 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html"
-            ><img src="images/duin-logo.png" alt="Duin logo"
-          /></a>
-        </li>
-        <li>
-          <a href="index.html"
-            ><img src="images/facebook.png" alt="Facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="index.html"
-            ><img src="images/instagram.png" alt="Instagram"
-          /></a>
-        </li>
-        <button>burger</button>
-      </ul>
-    </nav>
-    <header>
-      <h1>Knisperende schelpenpaden. Wuivend duingras. Dit is Duin</h1>
-      <img src="images/header-landingspagina-1536x1024.png" alt="Duin header" />
-      <button>Vertel me meer</button>
-    </header>
-    <section>
-      <article>
-        <h2>Wonen in DUIN</h2>
-        <p>
-          Aan het Ijmeer, met Almere in de rug en met zicht op Amsterdam, daar
-          vnd je DUIN. In de duinen, in het bos, op het strand, bij de
-          jachthaven of aan de boulevard. Met fabelachtige uitzichten is het in
-          DUIN volop genieten.
-        </p>
-      </article>
-      <article>
-        <img src="/images/The-Shore-def2.jpg" alt="" />
-        <h2>The Shore: Moderne en duurzame kantoren met uitzicht</h2>
-        <p>
-          Werken aan het strand met een permanent vakantiegevoel. The Shore is
-          een Modern, duurzaam kantoorgebow met een groene daktuin en een
-          fantastisch uitzicht. Aan het Ijmeer, midden in het gebied Duin,
-          Almere. Vlakbij Amsterdam, maar weg van alle hectiek.
-          <a href="">Lees meer</a>
-        </p>
-      </article>
-      <article>
-        <img src="/images/voorzieningen-in-DUIN.png" alt="" />
-        <h2>Tip: download De Omgevingsapp</h2>
-        <p>
-          Heb jij De Omgevingsapp van DUIN al gedownload> Doen, want dan ontvang
-          je handige tips over der bouwwerkzaamheden en voorzieningen in DUIN en
-          omgeving. Heb je vragen of klachten over de bouw DUIN. Of valt je iets
-          op? Via de Omgevingsapp kun je ook een bericht sturen aan de
-          Omgevingsmanager. De Omgevingsapp is gratis te downloaden in de Apple
-          Store en de Google Play Store.
-          <a href="">Lees meer</a>
-        </p>
-      </article>
-      <article>
-        <img
-          src="/images/carrousel-strand-in-almere-cityguide-almere-visit-almere.jpg"
-          alt=""
-        />
-        <h2>Dichtbij strand, water, bos en duinen...</h2>
-        <p>
-          DUIN is een bijzondere ontwikkeling op een fantastische plek. Direct
-          aan het Ijmeer, met zicht op Amsterdam, is een uniek stuk stad gemaakt
-          in een nieuw duinlandschap. Met echte duinen tot wel 10 meter hoog,
-          bossen en stranden. Met een jachthaven en een levendige boulevard met
-          appartementen, winkels en restaurants. Volop ruimte dus om te wonen
-          ondernemen en recreeren.
-          <a href="">Lees meer</a>
-        </p>
-      </article>
+    <section class="container-nav">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"
+              ><img src="images/duin-logo.png" alt="Duin logo"
+            /></a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><img src="images/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><img src="images/instagram.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <button id="btn-toggle" class="btn-burger-toggle">
+              <span class="line-one"></span>
+              <span class="line-two"></span>
+              <span class="line-three"></span>
+            </button>
+          </li>
+        </ul>
+        <!-- burger menu links -->
+        <ul class="nav-links" id="js-nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">De wijk</a></li>
+          <li><a href="#">Wonen</a></li>
+          <li><a href="#">Ondernemen</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </section>
+    <main>
+      <header>
+        <h1>Knisperende schelpenpaden. Wuivend duingras. Dit is Duin</h1>
+        <img
+          src="images/header-landingspagina-1536x1024.png"
+          alt="Duin header"
+        />
+        <a href="/het-gebied.html">Vertel me meer</a>
+      </header>
+      <section>
+        <article>
+          <h2>Wonen in DUIN</h2>
+          <p>
+            Aan het Ijmeer, met Almere in de rug en met zicht op Amsterdam, daar
+            vnd je DUIN. In de duinen, in het bos, op het strand, bij de
+            jachthaven of aan de boulevard. Met fabelachtige uitzichten is het
+            in DUIN volop genieten.
+          </p>
+        </article>
+        <article>
+          <img src="/images/The-Shore-def2.jpg" alt="" />
+          <h2>The Shore: Moderne en duurzame kantoren met uitzicht</h2>
+          <p>
+            Werken aan het strand met een permanent vakantiegevoel. The Shore is
+            een Modern, duurzaam kantoorgebow met een groene daktuin en een
+            fantastisch uitzicht. Aan het Ijmeer, midden in het gebied Duin,
+            Almere. Vlakbij Amsterdam, maar weg van alle hectiek.
+            <a href="">Lees meer</a>
+          </p>
+        </article>
+        <article>
+          <img src="/images/voorzieningen-in-DUIN.png" alt="" />
+          <h2>Tip: download De Omgevingsapp</h2>
+          <p>
+            Heb jij De Omgevingsapp van DUIN al gedownload> Doen, want dan
+            ontvang je handige tips over der bouwwerkzaamheden en voorzieningen
+            in DUIN en omgeving. Heb je vragen of klachten over de bouw DUIN. Of
+            valt je iets op? Via de Omgevingsapp kun je ook een bericht sturen
+            aan de Omgevingsmanager. De Omgevingsapp is gratis te downloaden in
+            de Apple Store en de Google Play Store.
+            <a href="">Lees meer</a>
+          </p>
+        </article>
+        <article>
+          <img
+            src="/images/carrousel-strand-in-almere-cityguide-almere-visit-almere.jpg"
+            alt=""
+          />
+          <h2>Dichtbij strand, water, bos en duinen...</h2>
+          <p>
+            DUIN is een bijzondere ontwikkeling op een fantastische plek. Direct
+            aan het Ijmeer, met zicht op Amsterdam, is een uniek stuk stad
+            gemaakt in een nieuw duinlandschap. Met echte duinen tot wel 10
+            meter hoog, bossen en stranden. Met een jachthaven en een levendige
+            boulevard met appartementen, winkels en restaurants. Volop ruimte
+            dus om te wonen ondernemen en recreeren.
+            <a href="">Lees meer</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
     <footer>
       <section>
         <article>
