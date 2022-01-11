@@ -1,13 +1,13 @@
 // JavaScript Document
 
-var navLinks = document.getElementById("js-nav-links");
-var navToggle = document.getElementById("btn-toggle");
-var burger = document.querySelector(".btn-burger-toggle");
+// var navLinks = document.getElementById("js-nav-links");
+// var navToggle = document.getElementById("btn-toggle");
+// var burger = document.querySelector(".btn-burger-toggle");
 
-navToggle.addEventListener("click", function () {
-  navLinks.classList.toggle("active");
-  burger.classList.toggle("toggle");
-});
+// navToggle.addEventListener("click", function () {
+//   navLinks.classList.toggle("active");
+//   burger.classList.toggle("toggle");
+// });
 
 // let carouselSlide = document.querySelector(".carousel-slide");
 // let carouselArticles = document.querySelectorAll(".carousel-slide article");
@@ -53,3 +53,31 @@ navToggle.addEventListener("click", function () {
 // })
 
 // console.log(counter)
+
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links li")
+
+
+  // toggle nav
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+
+     //animate links
+    navLinks.forEach((link, index)=>{
+      if(link.style.animation){
+        link.style.animation = ""
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`
+      }
+      
+    })
+    // burger animation
+    burger.classList.toggle("toggle");
+
+  });
+ 
+};
+
+navSlide();
