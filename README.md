@@ -85,8 +85,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2. https://www.youtube.com/watch?v=KcdBOoK3Pfw
+3. https://www.youtube.com/watch?v=ee8y1IV6pOI
 
 </details>
