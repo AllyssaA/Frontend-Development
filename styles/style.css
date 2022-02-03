@@ -271,6 +271,10 @@ footer section:nth-child(2) a {
   position: relative;
 }
 
+footer section:nth-child(2) a img {
+  margin-right: 1em;
+}
+
 footer section:nth-child(2) a:nth-child(4) {
   margin-right: 2.5em;
 }
@@ -383,9 +387,6 @@ figure blockquote p {
   .articles-container article a {
     bottom: 15%;
   }
-  .articles-container article img {
-    /* width: 60vh; */
-  }
   footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -412,7 +413,7 @@ figure blockquote p {
     grid-column: 2;
     grid-row: 1 / 2;
   }
-  main section article.article-gebied h2{
+  main section article.article-gebied h2 {
     padding-top: 0.2em;
   }
   main section article.article-gebied p {
