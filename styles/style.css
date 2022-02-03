@@ -353,9 +353,15 @@ figure blockquote p {
     display: grid;
     /* flex-direction: row; */
     grid-template-columns: repeat(2, 1fr);
-    height: 60vh;
+    /* height: 60vh; */
   }
 }
+
+/* @media screen and (min-width: 1093px) {
+  .articles-container article a {
+    bottom: 5%;
+  }
+} */
 
 @media screen and (min-width: 1024px) {
   /* homepage */
@@ -372,13 +378,13 @@ figure blockquote p {
     display: grid;
     /* flex-direction: row; */
     grid-template-columns: repeat(4, 1fr);
-    height: 60vh;
+    /* height: 60vh; */
   }
   .articles-container article a {
     bottom: 15%;
   }
   .articles-container article img {
-    width: 60vh;
+    /* width: 60vh; */
   }
   footer {
     display: grid;
