@@ -2,10 +2,10 @@
 <html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Allyssa" />
+    <meta name="author" content="AllyssaA" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Homepage - Duin</title>
+    <title>Dichtbij strand, water, bos en duinen... - Duin</title>
 
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="images/" />
@@ -13,12 +13,10 @@
 
   <body>
     <nav>
-      <ul>
-        <li>
-          <a href="index.html"
-            ><img src="images/duin-logo.png" alt="Duin logo"
-          /></a>
-        </li>
+      <a href="index.html"
+        ><img src="images/duin-logo.png" alt="Duin logo" class="logo"
+      /></a>
+      <ul class="top-nav">
         <li>
           <a href="index.html"
             ><img src="images/facebook.png" alt="Facebook"
@@ -29,23 +27,135 @@
             ><img src="images/instagram.png" alt="Instagram"
           /></a>
         </li>
-        <button>burger</button>
       </ul>
+      <!-- burger menu links -->
+      <ul class="nav-links" id="js-nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">De wijk</a></li>
+        <li><a href="#">Wonen</a></li>
+        <li><a href="#">Ondernemen</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div id="btn-toggle" class="burger">
+        <span class="line-one"></span>
+        <span class="line-two"></span>
+        <span class="line-three"></span>
+      </div>
     </nav>
-    <header>
-      <img src="/images/200801_Duin_Almere_Amvest-1-1536x1024.png" alt="" />
-      <h1>Dichtbij strand, water, bos en duinen...</h1>
-    </header>
-    <section>
-      <h2>
-        DUIN is een bijzondere ontwikkeling op een fantastische plek. Direct aan
-        het IJmeer, met zicht op Amsterdam, is een uniek stuk stad gemaakt in
-        een nieuw duinlandschap. Met echte duinen tot wel 10 meter hoog, bossen
-        en stranden. Met een jachthaven en een levendige boulevard met
-        appartementen, winkels, restaurants etc. Volop ruimte dus om te wonen,
-        ondernemen en recreëren.
-      </h2>
-    </section>
+    <main>
+      <header class="header-gebied">
+        <img src="/images/200801_Duin_Almere_Amvest-1-1536x1024.png" alt="" />
+      </header>
+
+      <section class="section-gebied">
+        <h1>Dichtbij strand, water, bos en duinen...</h1>
+        <article>
+          <p>
+            DUIN is een bijzondere ontwikkeling op een fantastische plek. Direct
+            aan het IJmeer, met zicht op Amsterdam, is een uniek stuk stad
+            gemaakt in een nieuw duinlandschap. Met echte duinen tot wel 10
+            meter hoog, bossen en stranden. Met een jachthaven en een levendige
+            boulevard met appartementen, winkels, restaurants etc. Volop ruimte
+            dus om te wonen, ondernemen en recreëren.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="article-gebied">
+          <img
+            src="images/acm2020-fietsen-langs-het-almeerderstrand-rv-maarten-feenstra-2_2118121972-1024x682.jpeg"
+            alt=""
+          />
+
+          <h2>Dichtbij de natuur</h2>
+          <p>
+            DUIN is een plan vol contrasten; druk en rustig, beschut en in de
+            wind, natuurlijk en stedelijk. In DUIN zijn veel dingen net wat
+            anders dan normaal. Het is er niet zo aangeharkt, maar een tikje
+            ruig. Dus geen saaie grijze stoeptegels, maar schelpenpaadjes,
+            hoogteverschillen en slingerende woonstraten. Of wat dacht je van
+            wonen te midden van een haast sprookjesachtig bos? Of je nu kiest
+            voor een woning in de duinen, in de bossen of aan de haven: in DUIN
+            is de natuur altijd dichtbij. En dit alles op schelpworp afstand van
+            Amsterdam.
+          </p>
+        </article>
+
+        <article class="article-gebied">
+          <img src="images/Natuurlijk-5.png" alt="" />
+          <h2>Dichtbij strand, water, bos en duinen…</h2>
+          <p>
+            DUIN is een beleving op zichzelf. Dit unieke woon- en werkgebied
+            wordt met de grootste zorg opgebouwd: over elke zandkorrel en
+            houtsnipper is nagedacht. Hierdoor ademt het hele gebied DUIN: het
+            openbaar gebied, de woningen, de beplanting en zelfs de schuttingen.
+            De huizen en commerciële ruimtes worden gemaakt van natuurlijke
+            materialen en met kleurstellingen die passen bij het natuurlijke
+            landschap. Er is goed nagedacht over flexibiliteit, bergruimte en
+            uitbreidbaarheid. Kortom, in DUIN kun je jaren vooruit!
+          </p>
+        </article>
+      </section>
+
+      <figure>
+        <blockquote>
+          <p>
+            Ontspannen ondernemen op een unieke locatie op 20 minuten van
+            Amsterdam? Voor iedere ondernemer is DUIN een buitenkans. Klik
+            <a href="">hier</a>
+            voor meer informatie.
+          </p>
+        </blockquote>
+      </figure>
+
+      <section>
+        <article class="article-gebied">
+          <img src="images/Duinplein-1.png" alt="" />
+          <h2>Recreëren, wonen en werken…</h2>
+          <p>
+            In deze setting van bos, duinen en strand is er niet alleen ruimte
+            voor woningen, maar ook voor vertier, winkelen, werken en
+            ondernemen. Bedrijven als het maritieme trainingscentrum
+            <a href="">CSmart</a>, het openluchttheater
+            <a href="">Vis-a-Vis</a> en het telecombedrijf
+            <a href="">Voiceworks</a> hebben zich al in het gebied gevestigd.
+            Daarnaast vind je langs de boulevard, bij het strand en de
+            jachthaven, het stedelijke deel van DUIN. Hier, in Kop Zuid, komen
+            comfortabele en moderne appartementen met een uniek uitzicht over
+            het IJmeer. Bovendien komen hier de winkels, horeca, hotels,
+            wellness, zorg en andere voorzieningen.
+          </p>
+        </article>
+
+        <article class="article-gebied">
+          <img src="images/DUIN_Blog_Steel_Creek-2-def.png" alt="" />
+          <h2>Vakantiegevoel</h2>
+          <p>
+            Woon je in DUIN dan is het elke dag een beetje vakantie. Met het
+            strand op loopafstand en tal van leuke hotspots is het hier elke dag
+            genieten. Zeilliefhebbers kunnen hun hart ophalen bij jachthaven
+            Marina Muiderzand - de perfecte uitvalbasis naar het IJsselmeer of
+            de Randmeren. Liever zonnen of een stevig wandeling maken aan het
+            strand? Almeerderstrand is een mooi kustgebied op schelpworp afstand
+            van DUIN waar cultuur, watersport, horeca en evenementen als
+            Strandfestival ZAND en de Libelle Zomerweek samenkomen.
+          </p>
+        </article>
+      </section>
+
+      <figure>
+        <blockquote>
+          <p>
+            Enthousiast? Schrijf jezelf in voor <a href="">de nieuwsbrief</a> om
+            op de hoogte te blijven van nieuwe woonprojecten, commerciële
+            ruimtes en nieuws uit de omgeving.
+          </p>
+        </blockquote>
+      </figure>
+    </main>
+
     <footer>
       <section>
         <article>
@@ -57,15 +167,26 @@
             Met fabelachtige uitzichten is het in DUIN volop genieten.
           </p>
         </article>
+        <div class="footer-logos">
+          <a href=""><img src="images/logoamsterdamwoont.png" alt="" /></a>
+          <a href=""><img src="images/footer-logo.png" alt="" /></a>
+          <a href=""><img src="images/logo.png" alt="" /></a>
+        </div>
+      </section>
+
+      <section>
         <ul>
           <li><a href="">Privacyverklaring</a></li>
           <li><a href="">Contact</a></li>
         </ul>
-      </section>
-      <section>
+        <hr />
         <h3>Volg ons op social media:</h3>
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
+        <a href=""
+          ><img src="images/facebook.png" alt="Duin Facebook" />Facebook</a
+        >
+        <a href=""
+          ><img src="images/instagram.png" alt="Duin Instagram" />Instagram</a
+        >
       </section>
     </footer>
 
