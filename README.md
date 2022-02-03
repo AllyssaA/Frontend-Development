@@ -39,28 +39,33 @@ Over de wijk Duin
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### HTML Validator
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<img src="images/htmlchecker.JPG" width="100%" alt="HTML check result">
+ 
+<img src="images/htmlchecker2.JPG" width="100%" alt="HTML check result">
 
+Met de Web Developer browser plugin heb ik de twee webpagina's door de HTML check gedaan. 
+Hieruit bleek dus dat ik in de sections geen headings had gebruikt. Ik heb dat nu veranderd door 
+headings toe te voegen maar om het niet in beeld te hebben maar wel accesible te maken voor screen readers,  
+heb ik de headings een class gegeven en in CSS heb ik deze class een active en focus selector gegeven.
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### CSS Validator 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+<img src="images/cssvalidator.JPG" width="100%" alt="CSS check result">
+ 
 
+#### Tab navigatie 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Met de tab toets ben ik door de website heen gegaan. Ik kwam erachter dat ik helemaal geen `:focus` en `:active` 
+selectors heb gebruikt.
+ 
+<img src="images/tab.JPG" width="50%" alt="Tab navigatie check">
+ 
+<img src="images/tab2.JPG" width="50%" alt="Tab navigatie alternatief">
+ 
+Dit kan worden opgelost door de selectors `:focus` en `:active` te gebruiken in CSS. (geel als voorbeeld gebruikt, maar dit is geen goeie contrast-ratio!)
 
 </details>
 
@@ -70,11 +75,18 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Als ik eenmaal bezig was lukte het wel, lastige was tijd ervoor nemen om eraan te werken. 
+ Ik denk dat het lastige qua coderen, de footer was van de homepagina. Ik had hier en daar `height: xvh` gebruikt in een
+ paar sections waardoor de `main` opeens heel klein werd. Maar het is uiteindelijk toch goed gekomen, ik heb het achterhaald door
+ elk element te inspecteren.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/screenshot1.png" alt="Final homepage Duin">
+ 
+<img src="images/screenshot2.png" alt="Final Duin page">
+
 
 </details>
 
@@ -89,5 +101,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. https://www.youtube.com/watch?v=KcdBOoK3Pfw
 3. https://www.youtube.com/watch?v=ee8y1IV6pOI
 4. https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+5. https://chrispederick.com/work/web-developer/
+6. https://www.educative.io/edpresso/how-to-add-a-line-break-using-css
 
 </details>
