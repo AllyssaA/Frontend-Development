@@ -88,5 +88,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 2. https://www.youtube.com/watch?v=KcdBOoK3Pfw
 3. https://www.youtube.com/watch?v=ee8y1IV6pOI
+4. https://www.w3schools.com/tags/ref_pxtoemconversion.asp
 
 </details>
