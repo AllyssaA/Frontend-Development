@@ -66,6 +66,10 @@ selectors heb gebruikt.
 <img src="images/tab2.JPG" width="50%" alt="Tab navigatie alternatief">
  
 Dit kan worden opgelost door de selectors `:focus` en `:active` te gebruiken in CSS. (geel als voorbeeld gebruikt, maar dit is geen goeie contrast-ratio!)
+ 
+#### Alt attribuut check
+ 
+Ik heb beide pagina's gecheckt op alternatieve tekst voor content images. Hier en daar miste er nog alternatieve tekst, die heb ik er meteen bij toegevoegd.
 
 </details>
 
