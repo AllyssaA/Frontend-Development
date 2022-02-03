@@ -273,6 +273,7 @@ footer section:nth-child(2) a {
 
 footer section:nth-child(2) a img {
   margin-right: 1em;
+  vertical-align: middle;
 }
 
 footer section:nth-child(2) a:nth-child(4) {
@@ -422,4 +423,25 @@ figure blockquote p {
   figure {
     padding: 4em;
   }
+}
+
+/* -- Accessibility check --- */
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
 }
