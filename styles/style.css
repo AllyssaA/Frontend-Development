@@ -445,3 +445,7 @@ figure blockquote p {
   overflow: visible;
   position: static;
 }
+
+a:focus, a:active{
+  background-color: yellow;
+}
